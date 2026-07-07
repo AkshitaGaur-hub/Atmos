@@ -1,11 +1,10 @@
-import React from 'react'
+import React from 'react';
+import SearchBox from './searchBox';
 
 const App = () => {
   return (
     <>
-    <div>
-      <h1 className='font-bold text-2xl bg-red-600 text-white'>Hello Mamta And Garmia</h1>
-    </div>
+      <SearchBox />
     </>
   )
 }
