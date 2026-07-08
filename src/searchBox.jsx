@@ -148,7 +148,6 @@ const SearchBox = () => {
             backdrop-blur-xl
             shadow-2xl
             border border-white/30
-            animate-pulse
             "
           >
 
@@ -157,7 +156,7 @@ const SearchBox = () => {
 
 
               <h2 className="text-2xl font-semibold">
-                📍 {weather.name}
+                {weather.name}
               </h2>
 
 
