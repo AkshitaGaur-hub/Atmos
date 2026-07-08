@@ -1,16 +1,187 @@
-# React + Vite
+# 🌦️ Weatherly
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
 
-Currently, two official plugins are available:
+<img src="https://img.shields.io/badge/Weather-App-blue?style=for-the-badge&logo=cloud" />
+<img src="https://img.shields.io/github/stars/yourusername/weatherly?style=for-the-badge" />
+<img src="https://img.shields.io/github/license/yourusername/weatherly?style=for-the-badge" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<br/>
 
-## React Compiler
+### ☁️ A simple, elegant weather application that brings real-time weather information right to your screen.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+</div>
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ About The Project
+
+**Weatherly** is a modern weather application designed to provide accurate and beautiful weather updates with a clean user experience.
+
+Search any city and instantly get:
+
+🌡️ Current temperature  
+☁️ Weather conditions  
+💧 Humidity information  
+🌬️ Wind speed  
+📍 Location-based weather details  
+
+The interface adapts beautifully to create a calm weather experience.
+
+---
+
+## 🌤️ Preview
+
+<div align="center">
+
+<!-- Add your screenshot here -->
+
+<img src="./screenshots/weather-preview.png" width="800"/>
+
+</div>
+
+---
+
+## 🚀 Features
+
+```
+🌎 Search weather by city
+⚡ Real-time weather updates
+🌡️ Temperature details
+☁️ Dynamic weather UI
+💧 Humidity information
+🌬️ Wind speed tracking
+📱 Responsive design
+🎨 Smooth animations
+```
+
+---
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+| Technology | Purpose |
+|------------|---------|
+| ⚛️ React | Frontend UI |
+| 🎨 Tailwind CSS | Styling |
+| 🌐 Weather API | Weather Data |
+| ⚡ Vite | Development Environment |
+| 📦 JavaScript | Application Logic |
+
+</div>
+
+---
+
+## 📂 Project Structure
+
+```
+Weatherly
+│
+├── src
+│   ├── components
+│   ├── assets
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── public
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/weatherly.git
+```
+
+Go inside the project:
+
+```bash
+cd weatherly
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔑 Environment Setup
+
+Create a `.env` file:
+
+```env
+VITE_WEATHER_API_KEY=your_api_key
+```
+
+Add your weather API key and restart the application.
+
+---
+
+## 🌈 Design Philosophy
+
+Weatherly follows a minimal design approach:
+
+☀️ Warm gradients for sunny weather  
+🌧️ Soft tones for rainy conditions  
+❄️ Cool colors for winter atmosphere  
+🌙 Comfortable dark mode experience  
+
+The goal is to make checking weather feel simple and pleasant.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create your feature branch
+
+```bash
+git checkout -b feature/new-feature
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Add new feature"
+```
+
+4. Push the branch
+
+```bash
+git push origin feature/new-feature
+```
+
+5. Create a Pull Request
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+<div align="center">
+
+### Made with ☁️ + ❤️ by Your Name
+
+*"Every forecast tells a story."*
+
+</div>
